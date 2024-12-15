@@ -132,7 +132,7 @@ class App extends Component {
 
         const translations = {
             zh: {
-                title: 'HQ ICON',
+                title: '苏苏图标库',
                 description: '从 App Store 获取高清应用图标',
                 searchPlaceholder: '搜索应用...',
                 filterToggle: '筛选条件',
@@ -150,7 +150,7 @@ class App extends Component {
                 themeSystem: '系统'
             },
             en: {
-                title: 'HQ ICON',
+                title: 'SuSu ICON',
                 description: 'High-quality App Store icon downloader',
                 searchPlaceholder: 'Search for apps...',
                 filterToggle: 'Filter Options',
