@@ -415,7 +415,7 @@ class App extends Component {
                                 Copyright © 2024 - <a href='https://github.com/YuKongA'>YuKongA</a>
                             </div>
                             <a
-                                href="https://www.baidu.com"
+                                href="https://github.com/YuKongA/HQ-ICON"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="github-link"
