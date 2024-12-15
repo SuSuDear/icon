@@ -132,7 +132,7 @@ class App extends Component {
 
         const translations = {
             zh: {
-                title: '苏苏图标库',
+                title: 'SuSu ICON',
                 description: '从 App Store 获取高清应用图标',
                 searchPlaceholder: '搜索应用...',
                 filterToggle: '筛选条件',
