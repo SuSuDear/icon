@@ -1,0 +1,76 @@
+.result {
+  background: var(--header-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s;
+  box-shadow: 0 1px 3px var(--shadow-color);
+}
+
+.result:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.icon-wrapper {
+  position: relative;
+  padding-top: 100%;
+  background: var(--filter-bg);
+  overflow: hidden;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.icon-trackName {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.icon-artistName {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.icon-platform {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--filter-bg);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+a.icon-info {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+a.icon-info:hover {
+  color: var(--text-color);
+}
+
+@media (max-width: 480px) {
+  .result {
+    margin: 0;
+  }
+}
