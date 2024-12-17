@@ -412,10 +412,10 @@ class App extends Component {
                     <div className="center">
                         <div className="footer-content">
                             <div className="copyright">
-                                Copyright © 2024 - <a href='https://github.com/YuKongA'>YuKongA</a>
+                                Copyright © 2024 - <a href='https://www.baidu.com'>SuSu</a>
                             </div>
                             <a
-                                href="https://github.com/YuKongA/HQ-ICON"
+                                href="https://www.baidu.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="github-link"
