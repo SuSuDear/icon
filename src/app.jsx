@@ -420,7 +420,7 @@ class App extends Component {
                                 rel="noopener noreferrer"
                                 className="github-link"
                             >
-                                GitHub
+                                苏苏
                             </a>
                         </div>
                     </div>
